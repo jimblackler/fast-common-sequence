@@ -1,0 +1,20 @@
+{
+  "name": "fast-common-sequence",
+  "description": "An algorithm to quickly find long common sequences in two lists.",
+  "version": "1.0.1",
+  "author": "jimblackler@gmail.com",
+  "license": "Apache-2.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "heap": "^0.2.7"
+  },
+  "devDependencies": {
+    "@types/heap": "^0.2.31",
+    "ts-node": "^10.9.1"
+  }
+}
